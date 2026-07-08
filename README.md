@@ -1,18 +1,14 @@
-# 🛡️ Drone Cyber Health Monitor
+ Drone Cyber Health Monitor
 
 A passive cybersecurity monitoring framework for consumer Wi-Fi drones that analyzes communication behavior in real time to detect cyber threats without modifying the drone firmware or hardware.
 
----
-
-## 📌 Overview
+ Overview
 
 Drone Cyber Health Monitor continuously evaluates the cybersecurity posture of consumer Wi-Fi drones by monitoring network telemetry such as signal strength, latency, packet loss, and jitter.
 
 The framework computes a **Cyber Health Index (CHI)**, detects abnormal communication behavior, classifies potential threats, and provides real-time response recommendations through an interactive monitoring dashboard.
 
----
-
-## ✨ Features
+ Features
 
 - Real-time drone security monitoring
 - Cyber Health Index (CHI) calculation
@@ -27,25 +23,21 @@ The framework computes a **Cyber Health Index (CHI)**, detects abnormal communic
 - Interactive attack simulation
 - GUI dashboard built using Tkinter
 
----
+ Dashboard
 
-# Dashboard
+ Normal Monitoring
 
-## Normal Monitoring
+![Normal Dashboard](assets/dashboard_normal.jpeg)
 
-![Normal Dashboard](assets/dashboard_normal.png)
 
----
+Attack Detection
 
-## Attack Detection
+![Attack Dashboard](assets/dashboard_attack.jpeg)
 
-![Attack Dashboard](assets/dashboard_attack.png)
 
----
+ Project Architecture
 
-# Project Architecture
 
-```
                 Drone
                    │
                    ▼
@@ -65,11 +57,9 @@ The framework computes a **Cyber Health Index (CHI)**, detects abnormal communic
                    │
                    ▼
             GUI Monitoring Dashboard
-```
 
----
 
-# Technologies Used
+#Technologies Used
 
 - Python
 - Tkinter
@@ -77,9 +67,8 @@ The framework computes a **Cyber Health Index (CHI)**, detects abnormal communic
 - CSV Logging
 - Rule-Based Threat Detection
 
----
 
-# Project Structure
+ Project Structure
 
 ```
 drone-cyber-health-monitor/
@@ -103,7 +92,7 @@ requirements.txt
 
 ---
 
-# Installation
+ Installation
 
 Clone the repository
 
@@ -131,7 +120,7 @@ python main.py
 
 ---
 
-# Threats Detected
+ Threats Detected
 
 - Denial of Service (DoS)
 - Signal Interference
@@ -141,7 +130,7 @@ python main.py
 
 ---
 
-# Outputs
+ Outputs
 
 The framework provides
 
@@ -154,7 +143,7 @@ The framework provides
 
 ---
 
-# Future Improvements
+ Future Improvements
 
 - Machine Learning–based anomaly detection
 - Live packet capture integration
@@ -164,17 +153,15 @@ The framework provides
 
 ---
 
-# Author
+ Author
 
-**Jeyanth Kannan**
+Jeyanth Kannan**
 
 B.Tech Computer Science and Engineering (Cyber Security)
 
 - LinkedIn: https://www.linkedin.com/in/jeyanth-kannan/
 - GitHub: https://github.com/Jeyanth-2004
 
----
-
-## License
+License
 
 This project is released under the MIT License.
